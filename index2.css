@@ -1,0 +1,92 @@
+
+
+body {
+    color: black;
+    background: rgb(37, 161, 183);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .main-container {
+    display: flex;
+   align-items: center;
+   flex-flow: column;
+   justify-content: center;
+  }
+  a {
+    color: white;
+    background-color: rgb(236, 46, 201);
+    border-radius: 5px;
+    font-size: 28px;
+    font-weight: 400;
+  }
+
+  .container1 ol {
+    text-align: center;
+    font-weight: 800;
+  }
+  
+  .box {
+    background-color: rgb(202, 202, 16);
+    width: 8rem;
+    height: 9rem;
+    margin-bottom: 30px;
+  }
+  
+  .one {
+    transition: width 4s;
+  }
+  
+  .one:hover {
+    width: 300px;
+  }
+  
+  .two {
+    transition: width 3s, height 5s;
+  }
+  
+  .two:hover {
+    width: 500px;
+    height: 500px;
+  }
+  
+  .three {
+    transition: width 3s;
+    transition-timing-function: linear;
+  }
+  
+  .three:hover {
+    width: 600px;
+  }
+  
+  .four {
+    transition: width 5s;
+  }
+  
+  .four:hover {
+    width: 30rem;
+  }
+  
+  .five {
+    transition: width 2s;
+  }
+  
+  .five:hover {
+    width: 20rem;
+  }
+  
+  .six {
+    transition: width 2s;
+  }
+  
+  .six:hover {
+    width: 30rem;
+  }
+
+  .seven{
+    transition: width 5s;
+  }
+  .seven:hover{
+    width: 500px;
+  }
+  
+  
+ 
